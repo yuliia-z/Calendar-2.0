@@ -28,7 +28,6 @@ public class Calendar {
         return date;
     }
 
-
     public int[] getMonth() {
         return month;
     }
