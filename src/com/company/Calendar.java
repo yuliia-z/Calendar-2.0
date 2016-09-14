@@ -6,7 +6,6 @@ public class Calendar {
     private LocalDate date;
     private int[] month = new int[32];
 
-
     public Calendar() {
         this.date = LocalDate.now();
         createMonth();
@@ -29,10 +28,6 @@ public class Calendar {
         return date;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
-        createMonth();
-    }
 
     public int[] getMonth() {
         return month;
