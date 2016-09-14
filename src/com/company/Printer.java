@@ -21,7 +21,7 @@ public class Printer {
         System.out.println();
     }
 
-     private static void printTabsForFirstDay(int positionOfFirstDayOfMonth) {
+    private static void printTabsForFirstDay(int positionOfFirstDayOfMonth) {
         if (positionOfFirstDayOfMonth == 7) {
             System.out.print("");
         } else {
