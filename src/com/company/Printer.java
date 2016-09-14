@@ -21,9 +21,13 @@ public class Printer {
         System.out.println();
     }
 
-    private static void printTabsForFirstDay(int positionOfFirstDayOfMonth) {
-        for (int j = 0; j < positionOfFirstDayOfMonth; j++) {
-            System.out.print("\t");
+     private static void printTabsForFirstDay(int positionOfFirstDayOfMonth) {
+        if (positionOfFirstDayOfMonth == 7) {
+            System.out.print("");
+        } else {
+            for (int j = 0; j < positionOfFirstDayOfMonth; j++) {
+                System.out.print("\t");
+            }
         }
     }
 
